@@ -7,6 +7,7 @@
       <!-- News -->
       <v-flex xs12 sm6 offset-sm3 v-for="(article, index) in articles" :key="index">
         <v-card class="mx-auto" max-width="400">
+          <img :src="article.urlToImage" width="100%" height="200px">
           <v-img
             class="white--text align-end"
             height="200px"
