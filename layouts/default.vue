@@ -105,12 +105,22 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: 'mdi-react',
+          title: 'News',
+          to: '/news'
+        },
+        {
+          icon: 'mdi-react',
+          title: 'About',
+          to: '/about'
         }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: 'Awesome News App'
     }
   }
 }
