@@ -107,7 +107,7 @@ export default {
           to: '/inspire'
         },
         {
-          icon: 'mdi-react',
+          icon: 'mdi-camera-iris',
           title: 'News',
           to: '/news'
         },
