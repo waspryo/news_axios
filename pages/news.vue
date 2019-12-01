@@ -19,7 +19,7 @@
           <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
 
           <v-card-text class="text--primary">
-            <div>Whitehaven Beach</div>
+            <div class="headline">{article.title}</div>
 
             <div>Whitsunday Island, Whitsunday Islands</div>
           </v-card-text>
@@ -29,6 +29,7 @@
 
             <v-btn color="orange" text>Explore</v-btn>
           </v-card-actions>
+          <v-card-text>{{article.content}}</v-card-text>
         </v-card>
       </v-flex>
     </v-container>
