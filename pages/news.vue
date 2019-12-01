@@ -1,9 +1,10 @@
 <template>
   <div>
-    <v-template>
+    <v-container>
       <v-flex xs12 pb-5>
         <h2>News</h2>
       </v-flex>
+      <!-- News -->
       <v-flex xs12 sm6 offset-sm3 v-for="(article, index) in articles" :key="index">
         <v-card class="mx-auto" max-width="400">
           <v-img
@@ -29,7 +30,7 @@
           </v-card-actions>
         </v-card>
       </v-flex>
-    </v-template>
+    </v-container>
   </div>
 </template>
 
